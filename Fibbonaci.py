@@ -1,8 +1,10 @@
-# Print Fibbonaci
-a,b = 0,1
-while(a<10):
-    #print('***********'+str(a) +"***********"+str(b))
-    print(a,end=' ')
-    a,b = b,a+b
-    #print('-----------'+str(a) +"-----------"+str(b))
-    #print("\n")
+# Print Fibbonaci series upto n
+
+def fib(n):
+    a,b = 0,1
+    while a<n:
+        print(a)
+        a,b = b,a+b
+
+x = int(input('Please enter a number :\n'))
+fib(x)
