@@ -1,6 +1,7 @@
 # Print Fibbonaci series upto n
 
 def fib(n):
+    "Pring fib docs"
     a,b = 0,1
     while a<n:
         print(a)
